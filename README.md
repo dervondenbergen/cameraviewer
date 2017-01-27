@@ -8,7 +8,9 @@ All data comes from https://github.com/dervondenbergen/cameraviewer-api.
 
 ## Starting
 
-You can start the application the way it is explained in the official docs: https://facebook.github.io/react-native/docs/getting-started.html#testing-your-react-native-installation
+Choose a signing Team in Xcode.
+
+Then you can start the application the way it is explained in the official docs: https://facebook.github.io/react-native/docs/getting-started.html#testing-your-react-native-installation
 
 ## Files
 
