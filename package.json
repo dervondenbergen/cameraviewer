@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "react": "^16.0.0-alpha.6",
-    "react-native": "^0.43.4",
+    "react-native": "^0.44.0",
+    "react-native-deprecated-custom-components": "^0.1.0",
     "react-native-looped-carousel": "^0.1.4",
     "react-native-safari-view": "^2.0.0",
     "styled-components": "^1.3.1"
