@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 import {
   ListView,
   StyleSheet,
-  BackAndroid
+  BackHandler
 } from 'react-native';
 
 import { Navigator } from 'react-native-deprecated-custom-components'
@@ -101,14 +101,14 @@ class cameraviewer extends Component {
   }
 
   componentDidMount() {
-    BackAndroid.addEventListener('hardwareBackPress', this.backHandler)
+    BackHandler.addEventListener('hardwareBackPress', this.backHandler)
     this.setState({
       dataType: getDataType(this.state.path),
     })
   }
   
   componentWillUnmount() {
-    BackAndroid.removeEventListener('hardwareBackPress', this.backHandler)
+    BackHandler.removeEventListener('hardwareBackPress', this.backHandler)
   }
   
   render() {
