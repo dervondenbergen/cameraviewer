@@ -7,9 +7,10 @@ import React, { Component } from 'react';
 import {
   ListView,
   StyleSheet,
-  Navigator,
   BackAndroid
 } from 'react-native';
+
+import { Navigator } from 'react-native-deprecated-custom-components'
 
 import styled from 'styled-components/native'
 
