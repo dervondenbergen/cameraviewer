@@ -14,11 +14,11 @@ Then you can start the application the way it is explained in the official docs:
 
 ## Files
 
-[`index.ios.js`](index.ios.js) contains the navigation
+[`root.js`](root.js) contains the navigation
 
 [`views/*.js`](views) are the different possible views, which get loaded by the navigation
 
-[`ios/cameraviewer/Images.xcassets`](ios/cameraviewer/Images.xcassets) contains the AppIcon + LaunchImage in different sizes
+[`ios/cameraviewer/Images.xcassets`](ios/cameraviewer/Images.xcassets) contains the AppIcon + LaunchImage in different sizes (for iOS)
 
 ## Style
 

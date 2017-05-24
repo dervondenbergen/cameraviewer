@@ -8,7 +8,8 @@ import {
 
 import styled from 'styled-components/native';
 import Carousel from 'react-native-looped-carousel';
-import SafariView from 'react-native-safari-view';
+
+import viewInformation from './viewInformation'
 
 // get width of device, to show carousel / image in full width
 const { width } = Dimensions.get('window');
@@ -112,13 +113,6 @@ class Product extends Component {
       });
   }
   
-  viewInformation(url) {
-    // show native iOS Safari using https://github.com/naoufal/react-native-safari-view
-    SafariView.show({
-      url: url,
-    })
-  }
-  
   render() {
     if (!this.state.loaded) {
       return this.renderLoadingView();
@@ -162,7 +156,7 @@ class Product extends Component {
           <Price>{product.price}</Price>
           <Button
             title="Show More Information"
-            onPress={function(){this.viewInformation(product.url)}.bind(this)} />
+            onPress={function(){viewInformation(product.url)}.bind(this)} />
         </ProductInfo>
       </StyledView>
     )
