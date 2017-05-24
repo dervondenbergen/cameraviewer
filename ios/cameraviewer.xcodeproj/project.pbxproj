@@ -895,6 +895,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = is.demont.cameraviewer;
 				PRODUCT_NAME = cameraviewer;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -914,6 +915,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = is.demont.cameraviewer;
 				PRODUCT_NAME = cameraviewer;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
